@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import com.example.lab_21.databinding.FragmentNewsletterBinding
 import com.google.android.material.snackbar.Snackbar
@@ -29,6 +30,10 @@ class newsletterFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+
+        val viewModel = ViewModelProvider(this).get(MailViewModel::class.java)
+        //binding.hotdTvTxt.setText(viewModel.currentString)
+        //binding.textViewTv.setText(viewModel.getArray().joinToString())
 
         // Setup ViewBinding
         binding = FragmentNewsletterBinding.inflate(layoutInflater, container, false)

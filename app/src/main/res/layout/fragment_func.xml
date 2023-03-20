@@ -19,20 +19,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="40dp"
             android:text="Func page"
             android:textColor="@color/white"
-            android:layout_margin="40dp"
             android:textSize="34sp"
 
             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:text="House Of Dragon House Generator"
             android:layout_marginBottom="15dp"
-            />
+            android:text="House Of Dragon, House Generator"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -48,36 +48,31 @@
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
             android:textColor="@color/white"
-            android:textSize="34sp" />
-
+            android:textAlignment="center"
+            android:textSize="30sp" />
 
 
         <Button
             android:id="@+id/btnClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Click..!"
             android:layout_marginBottom="15dp"
-            android:textColor="@color/white"
             android:backgroundTint="@color/oceanBlue"
-            />
+            android:text="Click..!"
+            android:textColor="@color/white" />
 
 
         <Button
             android:id="@+id/btnMainTo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Go Back"
             android:layout_marginBottom="15dp"
-            android:textColor="@color/white"
             android:backgroundTint="@color/oceanBlue"
-            />
-
-
+            android:text="Go Back"
+            android:textColor="@color/white" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
 
 
 </FrameLayout>

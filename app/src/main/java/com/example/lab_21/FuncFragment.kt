@@ -23,18 +23,23 @@ class FuncFragment : Fragment() {
     private lateinit var viewModel: FuncViewModel
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-
+   // override fun onCreate(savedInstanceState: Bundle?) {
+     //   super.onCreate(savedInstanceState)
 
 
         //viewModel = ViewModelProviders.of(this).get(FuncViewModel::class.java)
         //viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[FuncViewModel::class.java]
         //viewModel = ViewModelProvider(this)[FuncViewModel().javaClass]
-        viewModel = ViewModelProvider(this).get(FuncViewModel::class.java)
+        ///viewModel = ViewModelProvider(this).get(FuncViewModel::class.java)
 
-    }
+
+
+  //  }
+
+
+
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,6 +51,12 @@ class FuncFragment : Fragment() {
         // Setup ViewBinding
         binding = FragmentFuncBinding.inflate(layoutInflater, container, false)
         val view = binding.root
+
+
+        val viewModel = ViewModelProvider(this).get(FuncViewModel::class.java)
+        binding.hotdTvTxt.setText(viewModel.currentString)
+
+
 
 
         // ID
@@ -69,7 +80,7 @@ class FuncFragment : Fragment() {
         }
 
 
-        return view
+        return binding.root // or View
     }
 
 

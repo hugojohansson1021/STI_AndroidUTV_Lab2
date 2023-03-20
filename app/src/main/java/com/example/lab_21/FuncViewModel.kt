@@ -5,8 +5,8 @@ import androidx.lifecycle.ViewModel
 class FuncViewModel : ViewModel() {
 
     // Array list of House of the dragon houses
-    private val stringArray = arrayOf("House Targaryen", "House Hightower", "House Velaryon", "House Strong", "House Baratheon",
-        "House Lannister","House Cole", "House Amber", "House Clegane", "House Frey", "House Greyjoy", "House Karlstark","House Stark",
+    private val stringArray = arrayOf("House Targaryen", "House Hightower of Oldtown", "House Velaryon of Driftmark", "House Strong of Harrenhall", "House Baratheon of Stormsend",
+        "House Lannister Casterly rock","House Cole", "House Amber", "House Clegane", "House Frey", "House Greyjoy", "House Karlstark","House Stark of Winterfell",
         "House Tully", )
 
     var currentString = ""
