@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsletterFragment"
+    android:background="@color/grey_1">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/textViewTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Newsletter page"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mapwestoros"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Email"
+
+            />
+
+        <TextView
+            android:id="@+id/newsLetterTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnsubmitNewsletter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/oceanBlue"
+            android:text="Submit" />
+
+
+        <Button
+            android:id="@+id/btnMainTre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="@color/oceanBlue"
+            android:text="Go Back"
+            android:textColor="@color/white" />
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab_2.1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="house_of_the_dragons">House of The Dragon</string>
+    <string name="about_page_info">This app is about House of the dragons series, and it includes a random House of the dragon generator and some pictures and fan art Enjoy..!</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuncFragment"
+    android:background="@color/grey_1">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Func page"
+            android:textColor="@color/white"
+            android:layout_margin="40dp"
+            android:textSize="34sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="House Of Dragon House Generator"
+            android:layout_marginBottom="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotd" />
+
+
+        <TextView
+            android:id="@+id/hotdTvTxt"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+
+
+        <Button
+            android:id="@+id/btnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click..!"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/oceanBlue"
+            />
+
+
+        <Button
+            android:id="@+id/btnMainTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/oceanBlue"
+            />
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</FrameLayout>
