@@ -18,12 +18,6 @@ class newsletterFragment : Fragment() {
     private lateinit var binding: FragmentNewsletterBinding
 
 
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -32,8 +26,8 @@ class newsletterFragment : Fragment() {
 
 
         val viewModel = ViewModelProvider(this).get(MailViewModel::class.java)
-        //binding.hotdTvTxt.setText(viewModel.currentString)
         //binding.textViewTv.setText(viewModel.getArray().joinToString())
+        ///// Lite kod här och vi har viewmodel här /////
 
         // Setup ViewBinding
         binding = FragmentNewsletterBinding.inflate(layoutInflater, container, false)
