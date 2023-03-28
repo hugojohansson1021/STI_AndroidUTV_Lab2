@@ -23,6 +23,8 @@ class FuncFragment : Fragment() {
     private lateinit var viewModel: FuncViewModel
 
 
+
+    
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

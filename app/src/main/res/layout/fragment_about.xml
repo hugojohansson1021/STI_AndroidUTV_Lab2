@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".aboutFragment"
     android:background="@color/grey_1"
-
     >
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <androidx.appcompat.widget.LinearLayoutCompat
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="150dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -23,7 +26,6 @@
             android:layout_height="wrap_content"
             android:text="About page"
             android:textColor="@color/white"
-            android:layout_margin="40dp"
             android:textSize="34sp" />
 
         <ImageView
@@ -49,7 +51,7 @@
             android:textColor="@color/white"
             android:text="@string/about_page_info"
             android:paddingHorizontal="75dp"
-            android:layout_margin="15dp"
+
             />
 
 
@@ -59,14 +61,36 @@
             android:layout_height="wrap_content"
             android:text="Go Back"
             android:textSize="15sp"
-            android:layout_marginBottom="40dp"
             android:id="@+id/btn_main"
             android:textColor="@color/white"
             android:backgroundTint="@color/oceanBlue"
             />
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_1"
+            android:text="@string/dots"
+            android:textSize="20dp"
+            android:paddingHorizontal="75dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_1"
+            android:text="@string/dots"
+            android:textSize="20dp"
+            android:paddingHorizontal="75dp"
+
+            />
+
+
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-</FrameLayout>
+
+    </ScrollView>
+</RelativeLayout>
